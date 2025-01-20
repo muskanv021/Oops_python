@@ -8,5 +8,7 @@ e1=Employee(2000,21)
 e2=Employee(26000,26)
 
 
-print(e1.salary)
-print(e1.display())
+print(e1.salary) #Accecing attribute
+print(e1.display()) #Accessing method
+e1.salary=34000 #updati
+print(e1.salary) #Accecing attribute
